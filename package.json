@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/screwdriver-cd-test/quickstart-nodejs.git"
+    "url": "git+https://github.com/wangtracy/test.git"
   },
   "keywords": [
     "screwdriver",
