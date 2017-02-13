@@ -47,7 +47,7 @@ jobs:
       - set_token: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN > /dev/null 2>&1
       # In "publish_npm", we perform the actual publishing
       # NPM reference document - https://docs.npmjs.com/cli/publish
-      - publish_npm: npm config get registry
+      - publish_npm: npm publish
     # Allowed secrets block.
     # This list of secrets that are explicitly allowed to be exposed during the
     # "publish" Job.
